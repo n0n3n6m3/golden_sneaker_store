@@ -1,0 +1,125 @@
+*{
+    margin: center;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+    font-family: Rubik;
+
+}
+.background-shop{
+    position: relative;
+    left: 215px;
+    display: grid;
+    grid-template-columns: repeat(2,225px);
+}
+
+.shop{
+    position: relative;
+    left: 220px;
+    display: grid;
+    grid-template-columns: repeat(2,225px);
+
+}
+
+h2{
+    bottom: 33px;
+    left: 20px;
+    position: relative;
+   
+}
+.logo{
+    top: 10px;
+    position: relative;
+    left: 20px;
+
+}
+.our-products{}
+
+.nav-bar-product{
+    width: 220px;
+    position: relative;
+    border: 0px;
+    border-radius: 20px;
+    background-color: orange;
+    opacity: 1;
+    background-position:right top;
+    background-attachment:scroll;
+
+}
+
+.your-cart{}
+
+.nav-bar-cart{
+    width: 220px;  
+    position: relative;
+    border: 0px;
+    border-radius: 20px;
+    background-color: orange;
+    background-position:right top;
+    opacity: 1;
+    background-attachment: scroll;
+
+}
+
+.products{
+    position: relative;
+    background-color: transparent;
+
+}
+
+.shoes{
+    border: transparent; 
+    border-radius: 20px;
+}
+.name {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.description {
+    text-align: justify;
+    left: 2px;
+    font-size: 12px;
+    font-weight: 100;
+}
+.price {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+<!--Backgroundcolor of shoes is here-->
+#shoes1{
+    background-color: #e1e7ed;
+}
+#shoes2{
+    background-color: #4D317F;
+}
+#shoes3{
+    background-color: #E8D026;
+}
+#shoes4{
+    background-color: #FD584A;
+}
+#shoes5{
+    background-color: #D4D7D6;
+}
+#shoes6{
+    background-color: #F2F5F4;
+}
+#shoes7{
+    background-color: #22AFDC;
+}
+#shoes8{
+    background-color: #B50320;
+}
+#shoes9{
+    background-color: #3569A1;
+}
+#shoes10{
+    background-color: #54D4C9;
+}
+
+
